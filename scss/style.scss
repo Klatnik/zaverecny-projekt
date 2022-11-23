@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-.header_logo {
+.logo {
     font-family: $font-special;
     color: $primary-color;
     font-size: 30px;
@@ -20,17 +20,17 @@ body {
 }
 
 
-.menu {
+.menu__list {
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
-.menu_item {
+.menu__item {
     // padding: 10px;
 }
 
-.menu_link {
+.menu__link {
     display: block;
     font-family: $font-base;
     text-decoration: none;
@@ -43,18 +43,69 @@ body {
     }
 }
 
-footer {
+.footer {
     font-family: $font-base; 
     text-align: center;
     background-color: $footer-color;
     color: white;
+
 }
 
-.footer_block-1 {
-    padding: 20px;
+.footer__search {
+    display: flex;
+    justify-content: center;
 }
 
-.footer_block-2 {
+.footer__search-bar {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.footer__search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    
+}
+
+.footer__image {
+    width: 20px;
+}
+
+.footer__button {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.footer__button:hover {
+    background-color: white;
+}
+
+.footer__text {
+    margin: 10px 0 10px 0;
+}
+.footer__box {
+    padding: 30px;
+}
+
+.footer__copyright {
     background-color: $footer-secondary-color;
     padding: 30px;
 }
