@@ -69,14 +69,17 @@ body {
 
 ::-moz-placeholder {
   color: white;
+  opacity: 50%;
 }
 
 :-ms-input-placeholder {
   color: white;
+  opacity: 50%;
 }
 
 ::placeholder {
   color: white;
+  opacity: 50%;
 }
 
 .footer__image {
