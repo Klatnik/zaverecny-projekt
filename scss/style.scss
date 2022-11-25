@@ -13,6 +13,12 @@ body {
 }
 // Sekce header
 
+
+
+h1, h2 {
+    font-family: $font-special;
+}
+
 .logo {
     font-family: $font-special;
     color: $primary-color;
@@ -25,10 +31,6 @@ body {
     list-style-type: none;
     padding: 0;
     text-align: center;
-}
-
-.menu__item {
-    // padding: 10px;
 }
 
 .menu__link {
@@ -46,7 +48,27 @@ body {
 
 // Sekce main
 
+h1 {
+    justify-self: center;
+    color: white;
+    font-size: 80px;
+    padding: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    
 
+}
+
+.banner {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/index/hlavicka-index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    min-width: 400px;
+}
 
 // Sekce footer
 
@@ -72,11 +94,9 @@ body {
     &__link:hover, &__link:active, &__link:focus {
         fill: $primary-color;
     }
-    
+
  }
     
-
-
 .footer__search {
     display: flex;
     justify-content: center;
