@@ -11,6 +11,7 @@ $font-base: 'Montserrat', sans-serif;
 body {
     margin: 0;
 }
+// Sekce header
 
 .logo {
     font-family: $font-special;
@@ -43,6 +44,12 @@ body {
     }
 }
 
+// Sekce main
+
+
+
+// Sekce footer
+
 .footer {
     font-family: $font-base; 
     text-align: center;
@@ -51,10 +58,30 @@ body {
 
 }
 
+.social-media {
+    padding: 10px;
+
+    &__icon {
+        margin: 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__link:hover, &__link:active, &__link:focus {
+        fill: $primary-color;
+    }
+    
+ }
+    
+
+
 .footer__search {
     display: flex;
     justify-content: center;
-}
+    padding: 10px;
+
 
 .footer__search-bar {
     width: 100%;
@@ -64,35 +91,37 @@ body {
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
-}
+
+    }
 
 .footer__search-bar input {
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 10px 10px;
-    font-size: 16px;
-    color: white;
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 10px 10px;
+        font-size: 16px;
+        color: white;
+    }
+
+.footer__image {
+            width: 20px;
+        }
+
+.footer__button {
+            border: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: transparent;
+            cursor: pointer;
+        }
 }
 
 ::placeholder {
     color: white;
     opacity: 50%;
     
-}
-
-.footer__image {
-    width: 20px;
-}
-
-.footer__button {
-    border: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: transparent;
-    cursor: pointer;
 }
 
 .footer__button:hover {
@@ -103,7 +132,7 @@ body {
     margin: 10px 0 10px 0;
 }
 .footer__box {
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
 }
 
 .footer__copyright {
