@@ -105,12 +105,12 @@ section {
         align-items: center;
         margin: 20px 0;
         border-radius: 10px;
-        transition: transform .3s;
+        transition: transform .4s;
         
     }
 
     &__item:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     
 }
     &__link {
@@ -118,10 +118,18 @@ section {
         color: white;
         font-family: $font-base;
         font-size: 18px;
-        overflow: hidden;
     }
 }
 
+.recipes__item-1 { background-image: url(/images/recepty/panyr-min.jpeg); }
+.recipes__item-2 { background-image: url(/images/recepty/ryze-min.jpeg); }
+.recipes__item-3 { background-image: url(/images/recepty/dhal-min.jpeg); }
+.recipes__item-4 { background-image: url(/images/recepty/capati-min.jpeg); }
+.recipes__item-5 { background-image: url(/images/recepty/zelenina-min.jpeg); }
+.recipes__item-6 { background-image: url(/images/recepty/pakora-min.jpeg); }
+.recipes__item-7 { background-image: url(/images/recepty/catny-min.jpeg); }
+.recipes__item-8 { background-image: url(/images/recepty/halva-min.jpeg); }
+.recipes__item-9 { background-image: url(/images/recepty/lassi-min.jpg); }
 
 
 // Sekce footer
