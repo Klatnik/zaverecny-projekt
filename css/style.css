@@ -38,7 +38,7 @@ h1, h2 {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 20px;
 }
 .menu__link:hover, .menu__link:focus, .menu__link:active {
   background-color: #cc6633;
