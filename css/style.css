@@ -16,21 +16,22 @@ p {
 
 h1, h2 {
   font-family: "Style Script", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
 }
 
 .logo {
-  font-family: "Style Script", sans-serif;
-  color: #cc6633;
-  font-size: 30px;
-  text-align: center;
+  display: none;
 }
 
 .menu__list {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .menu__link {
@@ -45,6 +46,48 @@ h1, h2 {
   color: white;
 }
 
+@media screen and (min-width: 640px) {
+  .recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .recipes__link .recipes__item {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .logo {
+    display: block;
+    font-family: "Style Script", sans-serif;
+    color: #cc6633;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .menu {
+    margin: 0;
+  }
+  .menu__list {
+    display: flex;
+    margin: 0;
+  }
+  .flexbox {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .menu__link {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 60px;
+  }
+  .recipes-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 h1 {
   justify-self: center;
   color: white;
@@ -67,11 +110,6 @@ h1 {
 
 section {
   padding: 30px;
-}
-
-.recipes-grid {
-  display: block;
-  gap: 10px;
 }
 
 .recipes {
