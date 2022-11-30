@@ -1,9 +1,11 @@
+@use "variables";
+
 // Sekce footer
 
 .footer {
-    font-family: $font-base; 
+    font-family: variables.$font-base; 
     text-align: center;
-    background-color: $footer-color;
+    background-color: variables.$footer-color;
     color: white;
 }
 
@@ -23,7 +25,7 @@
     }
 
     &__link:hover, &__link:active, &__link:focus {
-        fill: $primary-color;
+        fill: variables.$primary-color;
     }
 
  }
@@ -91,7 +93,7 @@
 // Copyright
 
 .footer__copyright {
-    background-color: $footer-secondary-color;
+    background-color: variables.$footer-secondary-color;
     padding: 30px;
     color:rgba(255, 255, 255, 0.397);
     font-size: 13px;

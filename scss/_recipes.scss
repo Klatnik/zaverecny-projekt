@@ -1,0 +1,44 @@
+@use "variables";
+
+.recipes {
+    background-image: url(/images/background.svg);
+
+    &__item {
+        background-position: 20% ;
+        background-size: cover;
+        height: 200px;
+        min-width: 50px;
+        text-align: center;
+        text-shadow: 2px 3px 3px #4b4646;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        border-radius: 10px;
+        transition: transform .4s;
+        
+    }
+
+    &__item:hover {
+    transform: scale(1.03);
+    
+}
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-family: variables.$font-base;
+        font-size: 18px;
+    }
+}
+
+.recipes__item-1 { background-image: url(/images/recepty/panyr-min.jpeg); }
+.recipes__item-2 { background-image: url(/images/recepty/ryze-min.jpeg); }
+.recipes__item-3 { background-image: url(/images/recepty/dhal-min.jpeg); }
+.recipes__item-4 { background-image: url(/images/recepty/capati-min.jpeg); }
+.recipes__item-5 { background-image: url(/images/recepty/zelenina-min.jpeg); }
+.recipes__item-6 { background-image: url(/images/recepty/pakora-min.jpeg); }
+.recipes__item-7 { background-image: url(/images/recepty/catny-min.jpeg); }
+.recipes__item-8 { background-image: url(/images/recepty/halva-min.jpeg); }
+.recipes__item-9 { background-image: url(/images/recepty/lassi-min.jpg); }
+

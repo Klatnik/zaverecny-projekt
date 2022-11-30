@@ -1,0 +1,47 @@
+@use "variables";
+
+// Sekce header
+
+.logo {
+    display: none;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.menu__link {
+    display: block;
+    font-family: variables.$font-base;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+    &:hover, &:focus, &:active {
+        background-color: variables.$primary-color;
+        color: white;
+    }
+}
+
+h1 {
+    justify-self: center;
+    color: white;
+    font-size: 80px;
+    padding: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.banner {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/index/hlavicka-index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    min-width: 400px;
+}
