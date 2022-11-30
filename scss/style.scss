@@ -36,6 +36,7 @@ h2 {
 .logo {
     display: none;
 }
+
 .menu__list {
     list-style-type: none;
     padding: 0;
@@ -56,71 +57,9 @@ h2 {
     }
 }
 
-@media screen and (min-width: 640px) {
-
-    // .recipes, .spices {
-    //     padding: 30px;
-    // }
-
-    .recipes-grid, .spices-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        padding: 30px 0;
-    }
-
-    .recipes__link .recipes__item, .spices__link .spices__item {
-        margin: 0;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-
-    .recipes__background, .spices__background, .spices_text, .about, .dishware__text, .spices__text {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-
-    .logo {
-        display: block;
-        font-family: $font-special;
-        color: $primary-color;
-        font-size: 30px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu {
-        margin: 0;
-    }
-    .menu__list {
-        display: flex;
-        margin: 0;
-
-    }
-
-    .flexbox {
-        max-width: 90%;
-        padding: 0 30px;
-        display: flex;
-        justify-content: space-between;
-        justify-self: center;
-        align-items: center;
-        margin: 30px auto;
-    }
-
-    .menu__link {
-        padding: 10px 20px;
-        margin: 0 10px;
-        border-radius: 60px;
-    }
-
-    .recipes-grid, .spices-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 // Sekce main
+
+// Domů
 
 h1 {
     justify-self: center;
@@ -223,101 +162,72 @@ section {
     }
 }
 
-// Sekce footer
+@use "footer";
 
-.footer {
-    font-family: $font-base; 
-    text-align: center;
-    background-color: $footer-color;
-    color: white;
-}
+// Tablet
 
-.footer__box {
-    padding: 10px 30px 30px 30px;
-}
+@media screen and (min-width: 640px) {
 
-.social-media {
-    padding: 10px;
+    // .recipes, .spices {
+    //     padding: 30px;
+    // }
 
-    &__icon {
-        margin: 10px;
+    .recipes-grid, .spices-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 30px 0;
     }
 
-    &__link {
-        text-decoration: none;
+    .recipes__link .recipes__item, .spices__link .spices__item {
+        margin: 0;
     }
-
-    &__link:hover, &__link:active, &__link:focus {
-        fill: $primary-color;
-    }
-
- }
-
-
-
-//  Search bar
-
-.footer__search {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-
-
-.footer__search-bar {
-    width: 100%;
-    max-width: 500px;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px 20px;
-
-    }
-
-.footer__search-bar input {
-        background: transparent;
-        flex: 1;
-        border: 0;
-        outline: none;
-        padding: 10px 10px;
-        font-size: 16px;
-        color: white;
-    }
-
-.footer__image {
-            width: 20px;
-        }
-
-.footer__button {
-            border: 0;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: transparent;
-            cursor: pointer;
-        }
 }
 
-::placeholder {
-    color: white;
-    opacity: 50%;
-}
+// Desktop
 
-.footer__button:hover {
-    background-color: white;
-}
+@media screen and (min-width: 1100px) {
 
-.footer__text {
-    margin: 10px 0 10px 0;
-}
+    .recipes__background, .spices__background, .spices_text, .about, .dishware__text, .spices__text {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 
+    .logo {
+        display: block;
+        font-family: $font-special;
+        color: $primary-color;
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
 
+    .menu {
+        margin: 0;
+    }
+    .menu__list {
+        display: flex;
+        margin: 0;
 
-// Copyright
+    }
 
-.footer__copyright {
-    background-color: $footer-secondary-color;
-    padding: 30px;
-    color:rgba(255, 255, 255, 0.397);
-    font-size: 13px;
+    .flexbox {
+        max-width: 90%;
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        justify-self: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .menu__link {
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 60px;
+    }
+
+    .recipes-grid, .spices-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

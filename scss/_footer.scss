@@ -1,0 +1,98 @@
+// Sekce footer
+
+.footer {
+    font-family: $font-base; 
+    text-align: center;
+    background-color: $footer-color;
+    color: white;
+}
+
+.footer__box {
+    padding: 10px 30px 30px 30px;
+}
+
+.social-media {
+    padding: 10px;
+
+    &__icon {
+        margin: 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__link:hover, &__link:active, &__link:focus {
+        fill: $primary-color;
+    }
+
+ }
+
+
+
+//  Search bar
+
+.footer__search {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+.footer__search-bar {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+    }
+
+.footer__search-bar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 10px 10px;
+        font-size: 16px;
+        color: white;
+    }
+
+.footer__image {
+            width: 20px;
+        }
+
+.footer__button {
+            border: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: transparent;
+            cursor: pointer;
+        }
+}
+
+::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+.footer__button:hover {
+    background-color: white;
+}
+
+.footer__text {
+    margin: 10px 0 10px 0;
+}
+
+
+
+// Copyright
+
+.footer__copyright {
+    background-color: $footer-secondary-color;
+    padding: 30px;
+    color:rgba(255, 255, 255, 0.397);
+    font-size: 13px;
+}
