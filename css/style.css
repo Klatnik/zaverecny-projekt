@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -12,7 +13,6 @@ body {
 
 p {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
 }
 
 h1, h2 {
@@ -424,4 +424,137 @@ h1 {
   .dishware__text {
     margin: 0 30px;
   }
+  .milk-products__items {
+    display: flex;
+  }
+  .milk-products__link, .rice__link, .dhals__link {
+    width: 100%;
+  }
+  .rice__items, .dhals__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
+.milk-products__background {
+  background-image: url(/images/background.svg);
+}
+
+.milk-products__items {
+  padding: 40px;
+}
+.milk-products__items .milk-products__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 20px;
+}
+.milk-products__items .milk-products__item {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.4s;
+}
+.milk-products__items .milk-products__item:hover {
+  transform: scale(1.03);
+}
+.milk-products__items .milk-products__text {
+  margin: 16px;
+}
+
+.rice__background {
+  background-image: url(/images/background.svg);
+}
+
+.rice__items {
+  padding: 40px;
+}
+.rice__items .rice__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 10px;
+}
+.rice__items .rice__item {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.4s;
+}
+.rice__items .rice__item:hover {
+  transform: scale(1.03);
+}
+.rice__items .rice__text {
+  margin: 16px;
+}
+
+.dhals__background {
+  background-image: url(/images/background.svg);
+}
+
+.dhals__items {
+  padding: 40px;
+}
+.dhals__items .dhals__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 10px;
+}
+.dhals__items .dhals__item {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.4s;
+}
+.dhals__items .dhals__item:hover {
+  transform: scale(1.03);
+}
+.dhals__items .dhals__text {
+  margin: 16px;
+}
+
+.breadcrumb-navigation {
+  margin-left: 30px;
+}
+
+.breadcrumb-list {
+  padding: 10px 16px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.breadcrumb__item {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.breadcrumb__link {
+  color: #cc6633;
+  text-decoration: none;
+}
+
+.breadcrumb__item + li:before {
+  padding: 8px;
+  color: black;
+  content: "/ ";
 }/*# sourceMappingURL=style.css.map */

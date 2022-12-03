@@ -56,5 +56,21 @@
     .dishware__text {
         margin: 0 30px;
     }
+
+    .milk-products__items {
+        display: flex;
+    }
     
+    .milk-products__link, .rice__link, .dhals__link {
+        width: 100%;
+    }
+
+    .rice__items, .dhals__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+   
 }
+

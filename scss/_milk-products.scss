@@ -1,0 +1,42 @@
+@use "variables";
+
+
+.milk-products__background {
+    background-image: url(/images/background.svg);
+}
+
+.milk-products__items {
+
+    padding: 40px;
+
+    .milk-products__link {
+        text-decoration: none;
+        color: black;
+        font-family: variables.$font-base;
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .milk-products__item {
+        background-color: white;
+        border-radius: 10px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: transform .4s;
+        
+
+    }
+
+    .milk-products__item:hover {
+        transform: scale(1.03);
+    }
+
+    .milk-products__text {
+        margin: 16px;
+    }
+
+}
