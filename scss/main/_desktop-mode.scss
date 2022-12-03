@@ -65,7 +65,7 @@
         width: 100%;
     }
 
-    .rice__items, .dhals__items {
+    .rice__items, .dhals__items, .bread__items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
