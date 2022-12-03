@@ -1,17 +1,18 @@
-@use "base";
-@use "variables";
-@use "header";
+@use "main/base";
+@use "main/variables";
+@use "main/header";
 @use "recipes";
 @use "spices";
 @use "dishware";
-@use "footer";
-@use "tablet-mode";
-@use "desktop-mode";
+@use "main/footer";
+@use "main/tablet-mode";
+@use "main/desktop-mode";
 @use "milk-products";
 @use "rice";
 @use "dhals";
 @use "bread";
-@use "breadcrumbs-navigation"
+@use "vegetable";
+@use "main/breadcrumbs-navigation"
 
 
 

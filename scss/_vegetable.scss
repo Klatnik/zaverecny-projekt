@@ -1,15 +1,13 @@
 @use "main/variables";
 
-
-.dhals__background {
+.vegetable__background {
     background-image: url(/images/background.svg);
 }
 
-.dhals__items {
-
+.vegetable__items {
     padding: 40px;
 
-    .dhals__link {
+    .vegetable__link {
         text-decoration: none;
         color: black;
         font-family: variables.$font-base;
@@ -17,7 +15,7 @@
         margin: 10px;
     }
 
-    .dhals__item {
+    .vegetable__item {
         background-color: white;
         border-radius: 10px;
         height: 50px;
@@ -30,11 +28,11 @@
 
     }
 
-    .dhals__item:hover {
+    .vegetable__item:hover {
         transform: scale(1.03);
     }
 
-    .dhals__text {
+    .vegetable__text {
         margin: 16px;
     }
 

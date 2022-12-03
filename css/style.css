@@ -380,7 +380,22 @@ h1 {
   }
 }
 @media screen and (min-width: 1100px) {
-  .recipes__background, .spices__background, .spices_text, .about, .dishware__section, .spices__text, .dishware__container {
+  .recipes__background,
+.spices__background,
+.spices_text, .about,
+.dishware__section,
+.spices__text,
+.dishware__container,
+.bread__container,
+.bread__info,
+.milk-products__info,
+.milk-products__container,
+.rice__container,
+.rice__info,
+.dhals__container,
+.dhals__info,
+.vegetable__container,
+.vegetable__info {
     max-width: 90%;
     margin: 0 auto;
   }
@@ -430,7 +445,7 @@ h1 {
   .milk-products__link, .rice__link, .dhals__link {
     width: 100%;
   }
-  .rice__items, .dhals__items, .bread__items {
+  .rice__items, .dhals__items, .bread__items, .vegetable__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     -moz-column-gap: 30px;
@@ -562,6 +577,38 @@ h1 {
   transform: scale(1.03);
 }
 .bread__items .bread__text {
+  margin: 16px;
+}
+
+.vegetable__background {
+  background-image: url(/images/background.svg);
+}
+
+.vegetable__items {
+  padding: 40px;
+}
+.vegetable__items .vegetable__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 10px;
+}
+.vegetable__items .vegetable__item {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.4s;
+}
+.vegetable__items .vegetable__item:hover {
+  transform: scale(1.03);
+}
+.vegetable__items .vegetable__text {
   margin: 16px;
 }
 

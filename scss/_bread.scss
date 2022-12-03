@@ -1,11 +1,10 @@
-@use "variables";
+@use "main/variables";
 
 .bread__background {
     background-image: url(/images/background.svg);
 }
 
 .bread__items {
-
     padding: 40px;
 
     .bread__link {
