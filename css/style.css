@@ -260,6 +260,25 @@ h1 {
   background-image: url(/images/koreni-a-byliny/zazvor.jpeg);
 }
 
+.dishware__image {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.dishware__box:nth-child(odd) {
+  background-image: url(/images/background.svg);
+}
+
+.dishware__text {
+  margin: 0 30px;
+}
+
+.dishware__container {
+  padding: 40px;
+}
+
 .footer {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -361,7 +380,7 @@ h1 {
   }
 }
 @media screen and (min-width: 1100px) {
-  .recipes__background, .spices__background, .spices_text, .about, .dishware__text, .spices__text {
+  .recipes__background, .spices__background, .spices_text, .about, .dishware__section, .spices__text, .dishware__container {
     max-width: 90%;
     margin: 0 auto;
   }
@@ -396,5 +415,10 @@ h1 {
   }
   .recipes-grid, .spices-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .dishware__flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

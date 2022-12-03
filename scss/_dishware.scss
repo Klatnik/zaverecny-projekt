@@ -1,0 +1,20 @@
+@use "variables";
+
+.dishware__image {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.dishware__box:nth-child(odd) {
+    background-image: url(/images/background.svg);
+}
+
+.dishware__text {
+    margin: 0 30px;
+}
+
+.dishware__container {
+    padding: 40px;
+}

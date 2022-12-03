@@ -3,11 +3,7 @@
 // Tablet
 
 @media screen and (min-width: 640px) {
-
-    // .recipes, .spices {
-    //     padding: 30px;
-    // }
-
+ 
     .recipes-grid, .spices-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -18,4 +14,5 @@
     .recipes__link .recipes__item, .spices__link .spices__item {
         margin: 0;
     }
+
 }
