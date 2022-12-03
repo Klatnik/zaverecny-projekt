@@ -272,7 +272,7 @@ h1 {
 }
 
 .dishware__text {
-  margin: 0 30px;
+  margin: 30px;
 }
 
 .dishware__container {
@@ -420,5 +420,8 @@ h1 {
     display: flex;
     flex-direction: row-reverse;
     padding: 30px;
+  }
+  .dishware__text {
+    margin: 0 30px;
   }
 }/*# sourceMappingURL=style.css.map */
