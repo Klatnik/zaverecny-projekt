@@ -1,13 +1,13 @@
 @use "main/variables";
 
-.vegetable__background {
+.recipe-category__background {
     background-image: url(/images/background.svg);
 }
 
-.vegetable__items {
+.recipe-category__items {
     padding: 40px;
 
-    .vegetable__link {
+    .recipe-category__link {
         text-decoration: none;
         color: black;
         font-family: variables.$font-base;
@@ -15,7 +15,7 @@
         margin: 10px;
     }
 
-    .vegetable__item {
+    .recipe-category__item {
         background-color: white;
         border-radius: 10px;
         height: 50px;
@@ -28,11 +28,11 @@
 
     }
 
-    .vegetable__item:hover {
+    .recipe-category__item:hover {
         transform: scale(1.03);
     }
 
-    .vegetable__text {
+    .recipe-category__text {
         margin: 16px;
     }
 

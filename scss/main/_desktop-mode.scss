@@ -4,22 +4,14 @@
 
 @media screen and (min-width: 1100px) {
 
-    .recipes__background,
-     .spices__background,
-      .spices_text, .about,
-       .dishware__section,
+        .recipes__background,
+        .spices__background,
+        .spices_text, .about,
+        .dishware__section,
         .spices__text,
-         .dishware__container,
-          .bread__container,
-           .bread__info,
-            .milk-products__info,
-             .milk-products__container,
-              .rice__container,
-               .rice__info,
-                .dhals__container,
-                 .dhals__info,
-                 .vegetable__container,
-                 .vegetable__info {
+        .dishware__container,
+        .recipe-category__info,
+        .recipe-category__container {
 
         max-width: 90%;
         margin: 0 auto;
@@ -47,7 +39,7 @@
         margin: 0 auto;
         max-width: 90%;
     }
-    
+
     .flexbox {
         max-width: 90%;
         padding: 0 30px;
@@ -78,21 +70,16 @@
         margin: 0 30px;
     }
 
-    .milk-products__items {
-        display: flex;
-    }
-    
-    .milk-products__link, .rice__link, .dhals__link {
-        width: 100%;
-    }
-
-    .rice__items, .dhals__items, .bread__items, .vegetable__items {
+    .recipe-category__items, .recipe-category__info {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
     }
 
-
+    .recipe-category__text {
+        padding: 10px;
+        text-align: justify;
+    }
    
 }
 
