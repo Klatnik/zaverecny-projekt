@@ -478,6 +478,25 @@ h1 {
   margin: 16px;
 }
 
+.milk-products__title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.milk-products__table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 150px;
+}
+
+tr, td {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.milk-products__table, tr, td {
+  border: 1px solid black;
+}
+
 .breadcrumb-list {
   padding: 10px 35px;
   list-style: none;

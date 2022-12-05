@@ -1,0 +1,22 @@
+@use "main/variables";
+
+.milk-products__title {
+    font-family: variables.$font-base;
+}
+
+.milk-products__table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 150px;
+}
+
+tr, td {
+    font-family: variables.$font-base;
+    text-align: center;
+}
+
+.milk-products__table, tr, td {
+    border: 1px solid black;
+ 
+    
+}
