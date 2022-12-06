@@ -37,6 +37,11 @@ section {
   display: none;
 }
 
+.logo__link {
+  text-decoration: none;
+  color: #cc6633;
+}
+
 .menu__list {
   list-style-type: none;
   padding: 0;

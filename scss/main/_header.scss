@@ -6,6 +6,11 @@
     display: none;
 }
 
+.logo__link {
+    text-decoration: none;
+    color: variables.$primary-color;
+}
+
 .menu__list {
     list-style-type: none;
     padding: 0;
