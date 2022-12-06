@@ -3,7 +3,7 @@
 // Desktop
 
 @media screen and (min-width: 1100px) {
-
+        .flexbox,
         .recipes__background,
         .spices__background,
         .spices_text, .about,
@@ -11,9 +11,11 @@
         .spices__text,
         .dishware__container,
         .recipe-category__info,
-        .recipe-category__container {
+        .recipe-category__container,
+        .milk-products__recipe,
+        .breadcrumb-navigation {
 
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
     }
 
@@ -35,13 +37,7 @@
 
     }
 
-    .breadcrumb-navigation {
-        margin: 0 auto;
-        max-width: 90%;
-    }
-
     .flexbox {
-        max-width: 90%;
         padding: 0 30px;
         display: flex;
         justify-content: space-between;
@@ -80,6 +76,17 @@
         padding: 10px;
         text-align: justify;
     }
+   
+    .milk-products__recipe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .milk-products__text {
+        margin-bottom: 30px;
+    }
+
    
 }
 

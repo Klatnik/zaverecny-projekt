@@ -4,6 +4,30 @@
     font-family: variables.$font-base;
 }
 
+
+.milk-products__container::before, .milk-products__container::after {
+    content:"";
+    display: block;
+    background-image: url(/images/background.svg);
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+    
+}
+
+.milk-products__text {
+    text-align: justify;
+}
+
+.milk-products__subtitle {
+    margin: 5px 0;
+}
+
+.milk-products__box {
+    margin: 40px 0;
+}
+
+
 .milk-products__table {
     width: 100%;
     border-collapse: collapse;
@@ -18,5 +42,4 @@ tr, td {
 .milk-products__table, tr, td {
     border: 1px solid black;
  
-    
 }
