@@ -15,7 +15,7 @@
         .milk-products__recipe,
         .breadcrumb-navigation {
 
-        max-width: 80%;
+        max-width: 60%;
         margin: 0 auto;
     }
 
@@ -53,7 +53,7 @@
     }
 
     .recipes-grid, .spices-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .dishware__flexbox {
@@ -81,11 +81,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
+        align-items: start;
     }
 
-    .milk-products__text {
-        margin-bottom: 30px;
+    .main-recipe__box {
+        width: 600px;
+        
     }
+
+   
 
    
 }

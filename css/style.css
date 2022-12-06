@@ -391,7 +391,7 @@ h1 {
 .recipe-category__container,
 .milk-products__recipe,
 .breadcrumb-navigation {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
   }
   .logo {
@@ -423,7 +423,7 @@ h1 {
     border-radius: 60px;
   }
   .recipes-grid, .spices-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .dishware__flexbox {
     display: flex;
@@ -447,9 +447,10 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    align-items: start;
   }
-  .milk-products__text {
-    margin-bottom: 30px;
+  .main-recipe__box {
+    width: 600px;
   }
 }
 .recipe-category__background {
@@ -522,6 +523,25 @@ tr, td {
 
 .milk-products__table, tr, td {
   border: 1px solid black;
+}
+
+.milk-products__text {
+  margin-bottom: 30px;
+}
+
+.milk-products__list {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-recipe__box {
+  display: inline-block;
+  width: 400px;
+  padding: 20px 30px;
+  text-align: center;
+  background-color: #cc6633;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .breadcrumb-list {

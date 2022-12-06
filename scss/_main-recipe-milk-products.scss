@@ -43,3 +43,26 @@ tr, td {
     border: 1px solid black;
  
 }
+
+.milk-products__text {
+    margin-bottom: 30px;
+}
+
+.milk-products__list {
+    font-family: variables.$font-base;
+    margin-bottom: 30px;
+}
+
+.main-recipe__box {
+    display: inline-block;
+    width: 400px;
+    padding:  20px 30px;
+    text-align: center;
+    background-color: variables.$primary-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+    
+
+}
