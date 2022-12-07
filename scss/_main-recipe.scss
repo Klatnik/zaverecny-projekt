@@ -1,11 +1,11 @@
 @use "main/variables";
 
-.milk-products__title {
+.main-recipe__title {
     font-family: variables.$font-base;
 }
 
 
-.milk-products__container::before, .milk-products__container::after {
+.main-recipe__container::before, .main-recipe__container::after {
     content:"";
     display: block;
     background-image: url(/images/background.svg);
@@ -15,20 +15,20 @@
     
 }
 
-.milk-products__text {
+.main-recipe__text {
     text-align: justify;
 }
 
-.milk-products__subtitle {
+.main-recipe__subtitle {
     margin: 5px 0;
 }
 
-.milk-products__box {
+.main-recipe__box {
     margin: 40px 0;
 }
 
 
-.milk-products__table {
+.main-recipe__table {
     width: 100%;
     border-collapse: collapse;
     height: 150px;
@@ -39,16 +39,16 @@ tr, td {
     text-align: center;
 }
 
-.milk-products__table, tr, td {
+.main-recipe__table, tr, td {
     border: 1px solid black;
  
 }
 
-.milk-products__text {
+.main-recipe__text {
     margin-bottom: 30px;
 }
 
-.milk-products__list {
+.main-recipe__list {
     font-family: variables.$font-base;
     margin-bottom: 30px;
 }

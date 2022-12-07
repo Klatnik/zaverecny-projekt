@@ -394,7 +394,7 @@ h1 {
 .dishware__container,
 .recipe-category__info,
 .recipe-category__container,
-.milk-products__recipe,
+.main-recipe__recipe,
 .breadcrumb-navigation {
     max-width: 60%;
     margin: 0 auto;
@@ -438,9 +438,15 @@ h1 {
   .dishware__text {
     margin: 0 30px;
   }
-  .recipe-category__items, .recipe-category__info {
+  .recipe-category__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .recipe-category__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     -moz-column-gap: 30px;
          column-gap: 30px;
   }
@@ -448,7 +454,7 @@ h1 {
     padding: 10px;
     text-align: justify;
   }
-  .milk-products__recipe {
+  .main-recipe__recipe {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -487,11 +493,11 @@ h1 {
   margin: 16px;
 }
 
-.milk-products__title {
+.main-recipe__title {
   font-family: "Montserrat", sans-serif;
 }
 
-.milk-products__container::before, .milk-products__container::after {
+.main-recipe__container::before, .main-recipe__container::after {
   content: "";
   display: block;
   background-image: url(/images/background.svg);
@@ -500,19 +506,19 @@ h1 {
   width: 100%;
 }
 
-.milk-products__text {
+.main-recipe__text {
   text-align: justify;
 }
 
-.milk-products__subtitle {
+.main-recipe__subtitle {
   margin: 5px 0;
 }
 
-.milk-products__box {
+.main-recipe__box {
   margin: 40px 0;
 }
 
-.milk-products__table {
+.main-recipe__table {
   width: 100%;
   border-collapse: collapse;
   height: 150px;
@@ -523,15 +529,15 @@ tr, td {
   text-align: center;
 }
 
-.milk-products__table, tr, td {
+.main-recipe__table, tr, td {
   border: 1px solid black;
 }
 
-.milk-products__text {
+.main-recipe__text {
   margin-bottom: 30px;
 }
 
-.milk-products__list {
+.main-recipe__list {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
 }

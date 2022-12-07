@@ -12,7 +12,7 @@
         .dishware__container,
         .recipe-category__info,
         .recipe-category__container,
-        .milk-products__recipe,
+        .main-recipe__recipe,
         .breadcrumb-navigation {
 
         max-width: 60%;
@@ -66,9 +66,15 @@
         margin: 0 30px;
     }
 
-    .recipe-category__items, .recipe-category__info {
+    .recipe-category__items  {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+    .recipe-category__info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
     }
 
@@ -77,7 +83,7 @@
         text-align: justify;
     }
    
-    .milk-products__recipe {
+    .main-recipe__recipe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
