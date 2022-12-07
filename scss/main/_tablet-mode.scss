@@ -15,4 +15,10 @@
         margin: 0;
     }
 
+    .recipe-category__items  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+
 }
