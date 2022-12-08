@@ -1,0 +1,34 @@
+@use "main/variables";
+
+.main-spices__title {
+    font-family: variables.$font-base;
+}
+
+
+.main-spices__container::before, .main-spices__container::after {
+    content:"";
+    display: block;
+    background-image: url(/images/background.svg);
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+    
+}
+
+.main-spices__text {
+    text-align: justify;
+}
+
+.main-spices__subtitle {
+    margin: 5px 0;
+}
+
+.main-spices__image {
+    display: block;
+    width: 100%;
+}
+
+.main-spices__text {
+    margin-bottom: 30px;
+}
+

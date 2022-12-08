@@ -408,6 +408,7 @@ h1 {
 .recipe-category__info,
 .recipe-category__container,
 .main-recipe__recipe,
+.main-spices__spice,
 .breadcrumb-navigation {
     max-width: 70%;
     margin: 0 auto;
@@ -477,6 +478,12 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
+  }
+  .main-spices__spice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
   }
 }
 .recipe-category__background {
@@ -569,6 +576,36 @@ tr, td {
   background-color: #cc6633;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-spices__title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-spices__container::before, .main-spices__container::after {
+  content: "";
+  display: block;
+  background-image: url(/images/background.svg);
+  background-size: cover;
+  height: 30px;
+  width: 100%;
+}
+
+.main-spices__text {
+  text-align: justify;
+}
+
+.main-spices__subtitle {
+  margin: 5px 0;
+}
+
+.main-spices__image {
+  display: block;
+  width: 100%;
+}
+
+.main-spices__text {
+  margin-bottom: 30px;
 }
 
 .breadcrumb-list {

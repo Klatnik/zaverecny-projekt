@@ -14,6 +14,7 @@
         .recipe-category__info,
         .recipe-category__container,
         .main-recipe__recipe,
+        .main-spices__spice,
         .breadcrumb-navigation {
 
         max-width: 70%;
@@ -94,6 +95,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 40px;
         align-items: start;
+    }
+
+    .main-spices__spice {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
     }
 
 
