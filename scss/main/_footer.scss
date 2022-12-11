@@ -45,15 +45,18 @@
 .footer__search-bar {
     width: 100%;
     max-width: 500px;
+    min-width: 100px;
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
+    position: relative;
 
     }
 
 .footer__search-bar input {
+        width: 100%;
         background: transparent;
         flex: 1;
         border: 0;
@@ -74,6 +77,8 @@
             border-radius: 50%;
             background: transparent;
             cursor: pointer;
+            position: absolute;
+            right: 10px;
         }
 }
 
