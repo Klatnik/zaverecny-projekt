@@ -9,8 +9,8 @@
         .spices__background,
         .spices_text, .about,
         .dishware__section,
-        .spices__text,
         .dishware__container,
+        .spices__text,
         .recipe-category__info,
         .recipe-category__container,
         .main-recipe__recipe,
@@ -63,15 +63,8 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .dishware__flexbox {
-        display: flex;
-        flex-direction: row-reverse;
-        padding: 30px;
-    }
 
-    .dishware__text {
-        margin: 0 30px;
-    }
+    
 
     .recipe-category__items  {
         display: grid;

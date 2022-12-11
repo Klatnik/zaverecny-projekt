@@ -1,0 +1,22 @@
+@use "variables";
+
+.back-to-top__button {
+    --offset: 50px; 
+  
+    position: absolute;
+    margin-top: calc(100vh + var(--offset));
+    bottom: 40px;
+    right: 20px;
+    
+    text-decoration: none;
+    padding: 20px;
+    font-family: variables.$font-base;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+
+  
+ 

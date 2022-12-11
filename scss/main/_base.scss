@@ -1,11 +1,13 @@
 @use "variables";
 
 html { box-sizing: border-box; }
-*, :after, :before { box-sizing: inherit; }
+*, :after, :before { box-sizing: inherit; scroll-behavior: smooth }
+
 
 
 body {
     margin: 0;
+    position: relative;
 }
 
 p {

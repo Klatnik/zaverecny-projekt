@@ -2,14 +2,19 @@
 
 .dishware__image {
     display: block;
-    width: 200px;
     margin: 0 auto;
     border-radius: 10px;
+    
 }
 
-.dishware__box:nth-child(odd) {
+ .dishware__box::before {
+    content:"";
+    display: block;
     background-image: url(/images/background.svg);
-}
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+ }
 
 .dishware__text {
     margin: 30px;
@@ -18,3 +23,5 @@
 .dishware__container {
     padding: 40px;
 }
+
+
