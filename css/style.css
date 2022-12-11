@@ -10,7 +10,6 @@ html {
 
 body {
   margin: 0;
-  position: relative;
 }
 
 p {
@@ -648,9 +647,13 @@ tr, td {
 }
 
 .back-to-top__button {
-  position: absolute;
-  bottom: 40px;
-  right: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  margin-top: -3vh;
+  float: right;
+  margin-left: 0;
   text-decoration: none;
   padding: 20px;
   font-family: "Montserrat", sans-serif;

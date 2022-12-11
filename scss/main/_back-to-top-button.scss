@@ -1,10 +1,13 @@
 @use "variables";
 
 .back-to-top__button {
-  
-    position: absolute;
-    bottom: 40px;
-    right: 20px;
+
+    position: sticky;
+    bottom: 20px;      
+    margin-right: 10px; 
+    margin-top: -3vh;
+    float: right;
+    margin-left: 0;
 
     text-decoration: none;
     padding: 20px;
@@ -13,6 +16,8 @@
     background: #000;
     border-radius: 100px;
     white-space: nowrap;
+
+   
   }
 
 
