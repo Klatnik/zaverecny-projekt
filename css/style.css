@@ -56,6 +56,7 @@ section {
   text-decoration: none;
   color: black;
   padding: 20px;
+  border-bottom: 1px solid #e98959;
 }
 .menu__link:hover, .menu__link:focus, .menu__link:active {
   background-color: #cc6633;
@@ -456,6 +457,7 @@ h1 {
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 60px;
+    border-bottom: none;
   }
   .footer__flexbox {
     display: flex;

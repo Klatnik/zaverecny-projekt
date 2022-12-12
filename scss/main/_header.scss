@@ -18,16 +18,22 @@
     margin: 0;
 }
 
+
+
 .menu__link {
     display: block;
     font-family: variables.$font-base;
     text-decoration: none;
     color: black;
     padding: 20px;
+    border-bottom: 1px solid #e98959;
+    
+    
 
     &:hover, &:focus, &:active {
         background-color: variables.$primary-color;
         color: white;
+
     }
 }
 
