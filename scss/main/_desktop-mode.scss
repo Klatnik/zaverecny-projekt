@@ -62,11 +62,15 @@
         align-items: center;
     }
 
+    .footer__column1 {
+        width: 274px;
+    }
+
     .footer__divider {
         display:block;
         fill: rgba(255, 255, 255, 0.397);
         justify-self: center;
-        flex-shrink: 1;
+        // flex-shrink: 1;
     }
 
     .about {
