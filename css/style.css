@@ -298,8 +298,8 @@ h1 {
 }
 
 .footer__flexbox {
-  padding: 10px 30px 30px 30px;
-  min-height: 300px;
+  padding: 10px 30px 10px 30px;
+  min-height: 250px;
 }
 
 .social-media {
@@ -385,6 +385,10 @@ h1 {
   font-size: 13px;
 }
 
+.footer__divider {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
   .recipes-grid, .spices-grid {
     display: grid;
@@ -404,13 +408,18 @@ h1 {
   .dishware__flexbox {
     display: flex;
     flex-direction: row-reverse;
-    padding: 30px;
     justify-content: center;
     align-items: center;
   }
+  .dishware__image {
+    margin: 30px;
+  }
+  .dishware__title {
+    text-align: center;
+  }
   .dishware__text {
     margin: 0 30px;
-    max-width: 500px;
+    max-width: 400px;
   }
 }
 @media screen and (min-width: 1100px) {
@@ -461,8 +470,17 @@ h1 {
   }
   .footer__flexbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+  }
+  .footer__divider {
+    display: block;
+    fill: rgba(255, 255, 255, 0.397);
+    justify-self: center;
+    flex-shrink: 1;
+  }
+  .about {
+    padding: 30px 20px;
   }
   .recipes-grid, .spices-grid {
     grid-template-columns: repeat(3, 1fr);

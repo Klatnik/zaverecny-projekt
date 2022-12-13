@@ -24,14 +24,20 @@
     .dishware__flexbox {
         display: flex;
         flex-direction: row-reverse;
-        padding: 30px;
         justify-content: center;
         align-items: center;
     }
 
+    .dishware__image {
+        margin: 30px;
+    }
+
+    .dishware__title {
+        text-align: center;
+    }
     .dishware__text {
         margin: 0 30px;
-        max-width: 500px;
+        max-width: 400px;
     }
 
 }

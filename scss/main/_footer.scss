@@ -10,8 +10,8 @@
 }
 
 .footer__flexbox {
-    padding: 10px 30px 30px 30px;
-    min-height: 300px;
+    padding: 10px 30px 10px 30px;
+    min-height: 250px;
 
 }
 
@@ -104,4 +104,8 @@
     padding: 30px;
     color:rgba(255, 255, 255, 0.397);
     font-size: 13px;
+}
+
+.footer__divider {
+    display: none;
 }
